@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONECTIA - Soluciones Tecnológicas</title>
+    
+    <!-- Importación de fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@900&family=Montserrat:wght@600&family=Poppins:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    
+    <!-- Iconos de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/x-icon" href="Assest/Imagenes/Favicon.png">
+
+</head>
+<body>
+    <!-- Encabezado y navegación -->
+   <header>
+    <div class="container header-container">
+
+        <!-- Logo -->
+        <a href="#inicio" class="logo">
+            <img src="Assest/Imagenes/logo.png" alt="Logo CONECTIA" class="logo-img">
+            <span class="logo-text">CONECTIA</span>
+        </a>
+
+        <!-- Menú escritorio -->
+        <nav class="desktop-menu">
+            <ul>
+                <li><a href="#inicio"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="#nosotros"><i class="fas fa-users"></i> Sobre Nosotros</a></li>
+                <li><a href="#servicios"><i class="fas fa-cogs"></i> Servicios</a></li>
+                <li><a href="blogs/blog1.html"><i class="fa fa-book"></i> Blogs</a></li>
+                <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+                <li><a href="https://wa.me/573135393011" target="_blank" class="whatsapp-menu"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+            </ul>
+        </nav>
+
+        <!-- Botón menú móvil -->
+        <div class="mobile-nav">
+            <div class="menu-toggle" id="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<!-- Menú móvil fuera del header para evitar que se recorte -->
+<nav class="mobile-menu" id="mobile-menu">
+    <ul>
+        <li><a href="#inicio"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#nosotros"><i class="fas fa-users"></i> Sobre Nosotros</a></li>
+        <li><a href="#servicios"><i class="fas fa-cogs"></i> Servicios</a></li>
+        <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+        <li><a href="https://wa.me/573135393011" target="_blank" class="whatsapp-menu"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+    </ul>
+</nav>
+
+    <!-- Sección Héroe -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <h1>CONECTIA - Soluciones Tecnológicas</h1>
+            <p>Ofrecemos servicios especializados en mantenimiento, reparación y asesoría tecnológica para empresas y particulares. Confía en nuestros más de 10 años de experiencia en el sector.</p>
+            <a href="#contacto" class="cta-button">Solicitar Servicio</a>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Nosotros -->
+    <section id="nosotros" class="container">
+        <h2 class="section-title">Sobre <span>Nosotros</span></h2>
+        <div class="about-content">
+            <p>
+                En CONECTIA nos especializamos en brindar soluciones tecnológicas integrales para empresas y particulares. Con más de una década de experiencia en el mercado, nos hemos consolidado como líderes en el sector de servicios informáticos.
+            </p>
+            <p>
+                Nuestro equipo de profesionales certificados está comprometido con ofrecer soluciones eficientes, rápidas y de alta calidad, garantizando la satisfacción total de nuestros clientes.
+            </p>
+        </div>
+    </section>
+    <!-- Galeria -->
+
+    <section id="galeria" class="galeria-section">
+    <div class="container">
+        <h2 class="section-title">Muestra De <span>Capacidades</span></h2>
+
+        <div class="galeria-grid">
+            <div class="galeria-item">
+                <img src="Assest/Imagenes/Laptos.jpg" alt="Trabajo realizado 1">
+            </div>
+            <div class="galeria-item">
+                <img src="Assest/Imagenes/pasta.jpg" alt="Trabajo realizado 2">
+            </div>
+            <div class="galeria-item">
+                <img src="Assest/Imagenes/reparacion.jpg" alt="Trabajo realizado 3">
+            </div>
+            <div class="galeria-item">
+                <img src="Assest/Imagenes/LIMPIEZAS DE PC.jpg" alt="Trabajo realizado 4">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios">
+        <div class="container">
+            <h2 class="section-title">Nuestros <span>Servicios</span></h2>
+            
+            <div class="services">
+                <!-- Servicio 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Mantenimiento y Limpieza de PC</h3>
+                        <p>Servicio preventivo y correctivo para mantener tus equipos en óptimas condiciones. Incluye limpieza interna, actualización de software y optimización del sistema.</p>
+                        <a href="https://wa.me/573135393011?text=Hola%20CONECTIA,%20quiero%20agendar%20una%20cita%20para%20mantenimiento%20y%20limpieza%20de%20pc"
+               class="btn-agendar-servicio"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Agendar por WhatsApp
+            </a>
+                    </div>
+                </div>
+                
+                <!-- Servicio 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Reparación de Equipos</h3>
+                        <p>Diagnóstico y reparación de hardware y software para todo tipo de computadores y dispositivos tecnológicos. Soluciones rápidas y efectivas.</p>
+                      <a href="https://wa.me/573135393011?text=Hola%20CONECTIA,%20quiero%20agendar%20una%20cita%20Para%20reparación%20de%20Equipos"
+               class="btn-agendar-servicio"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Agendar por WhatsApp
+            </a>                
+                    </div>
+                </div>
+                
+                <!-- Servicio 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hdd"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Formateos y Recuperación</h3>
+                        <p>Formateo de equipos con instalación de sistemas operativos originales, drivers y software esencial. Recuperación de datos perdidos o dañados.</p>
+                    <a href="https://wa.me/573135393011?text=Hola%20CONECTIA,%20quiero%20agendar%20una%20cita%20para%20formatear%20mi%20pc"
+               class="btn-agendar-servicio"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Agendar por WhatsApp
+            </a>
+                    </div>
+                </div>
+                
+                <!-- Servicio 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-house"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Ayuda Remota</h3>
+                        <p>Soporte técnico a distancia para resolver problemas sin necesidad de desplazamiento. Soluciones inmediatas desde la comodidad de tu hogar u oficina.</p>
+                        <a href="https://wa.me/573135393011?text=Hola%20CONECTIA,%20quiero%20agendar%20una%20cita%20para%20ayuda%20remota"
+               class="btn-agendar-servicio"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Agendar por WhatsApp
+            </a>
+                    </div>
+                </div>
+                
+                <!-- Servicio 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Venta de Partes y Accesorios</h3>
+                        <p>Distribución de componentes de calidad para computadores y dispositivos electrónicos. Asesoría para seleccionar los mejores productos según tus necesidades.</p>
+                        <a href="https://wa.me/573135393011?text=Hola%20CONECTIA,%20quiero%20agendar%20una%20cita%20para%20comprar%20partes%20de%20compuadores"
+               class="btn-agendar-servicio"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Agendar por WhatsApp
+            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Formulario de Contacto -->
+    <section id="contacto" class="contact-form">
+        <div class="container">
+            <h2 class="section-title">Solicita Nuestros <span>Servicios</span></h2>
+            
+            <div class="form-container">
+                <h3>Formulario de Contacto</h3>
+                
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo *</label>
+                        <input type="text" id="nombre" class="form-control" placeholder="Ingresa tu nombre completo" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="pais">País de Contacto *</label>
+                        <select id="pais" class="form-control" required>
+                            <option value="">Selecciona tu país</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="México">México</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Perú">Perú</option>
+                            <option value="Ecuador">Ecuador</option>
+                            <option value="España">España</option>
+                            <option value="Estados Unidos">Estados Unidos</option>
+                            <option value="Otro">Otro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="celular">Número de Celular *</label>
+                        <input type="tel" id="celular" class="form-control" placeholder="Ingresa tu número de celular" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="descripcion">Descripción del Servicio Solicitado *</label>
+                        <textarea id="descripcion" class="form-control" placeholder="Describe brevemente el servicio que necesitas (máximo 200 caracteres)" maxlength="200" required></textarea>
+                        <div class="char-count" id="charCount">0/200 caracteres</div>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Enviar Solicitud</button>
+                    
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+ <a href="https://wa.me/573135393011" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Contactar por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>CONECT<span>IA</span></h4>
+                    <p>Soluciones tecnológicas integrales con más de 10 años de experiencia en el mercado. Confiabilidad, rapidez y calidad en todos nuestros servicios.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-envelope"></i> juancgfilms@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle 8 #6-24 Pradera, Valle, Colombia</p>
+                    <p><i class="fas fa-phone"></i> 313 539 3011</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <p><i class="fas fa-check-circle"></i> Mantenimiento y Limpieza de PC</p>
+                    <p><i class="fas fa-check-circle"></i> Reparación de Equipos</p>
+                    <p><i class="fas fa-check-circle"></i> Formateos y Recuperación</p>
+                    <p><i class="fas fa-check-circle"></i> Ayuda Remota</p>
+                    <p><i class="fas fa-check-circle"></i> Venta de Partes</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2025 CONECTIA Colombia. Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
