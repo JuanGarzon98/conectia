@@ -188,7 +188,7 @@ header {
 }
 
 .hero h1 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Good Old DOS', sans-serif;
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 20px;
@@ -499,5 +499,6 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+
 
 
